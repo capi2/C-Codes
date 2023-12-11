@@ -179,6 +179,7 @@ void removeByName(typeList *l, char *name){
     }
 }
 
+//inserts student by fiding its right position on list
 int orderedInsertionByName(typeList *l, typeStudent info){
     typeNode *aux = createNode(info);
     typeNode *tmp = l->first;
